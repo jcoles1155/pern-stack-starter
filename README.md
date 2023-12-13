@@ -2,17 +2,16 @@
 
 The PERN Stack is an acronym for Postgres, Express, React, Node. It's a set of tools to create a complete web application.
 
-To understand this project, I recommend that you could know these tolls:
+Start by downloading this technologies if you haven't already:
 
+* Node JS
+* Homebrew
 * Postgres
-* Express
-* React
-* Node
+* Docker
 
-And this other technologies and libraries That I Use in this project:
+Other technologies and libraries that I use in this project:
 
 * Material UI
-* Docker
 * [Postico](https://eggerapps.at/postico2/)
 
 ### Installation
@@ -40,16 +39,36 @@ this command will create the database and the pgadmin client in the following po
 - Database: localhost:5432
 - Pgadmin: localhost:8080
 
-Run the frontend:
+We also need the packages this project is dependent on... so:
+
+Build the packages:
+
+```
+npm i
+```
+
+This will download
+
+* Express
+* React
+* Node
+
+Start up the Express Server from root
+
+```
+node src/index.js
+```
+
+And spin up the frontend:
 
 ```
 cd client
 npm run dev
 ```
 
-And start up the Express Server from root
+Sweet!  All your services should be running!
 
-```
-node src/index.js
-```
+Now go ahead and boot up Postico that you downloaded and open up the settings of the test server created and make them like so:
+
+
 
