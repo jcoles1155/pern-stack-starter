@@ -15,6 +15,9 @@ Other technologies and libraries that I use in this project:
 * [Postico](https://eggerapps.at/postico2/)
 * Docker
 
+
+
+
 ### Installation
 
 This project consists in a *Web Frontend Application* and a *Web Backend Application*.
@@ -24,6 +27,9 @@ First, clone the repo:
 ```bash
 git clone https://github.com/jcoles1155/pern-stack-starter.git
 ```
+
+
+
 
 ### Development
 
