@@ -14,7 +14,7 @@ services:
   #     - DB_USER=jc
   #     - DB_PASSWORD=password
   #     - DB_HOST=db
-  #     - DB_PORT=5555
+  #     - DB_PORT=5432
   #     - DB_DATABASE=template
 
   db:
@@ -22,15 +22,16 @@ services:
     image: postgres
     restart: always
     ports:
-      - 5555:5555
+      - 5432:5432
     environment:
       POSTGRES_PASSWORD: password
       POSTGRES_DB: template
+      POSTGRES_USER: jc
     volumes: 
       - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
 
   pgadmin:
-    container_name: pern-stack-tempalte-mypgadmin
+    container_name: pern-stack-template-mypgadmin
     image: dpage/pgadmin4
     ports:
       - 8080:80
