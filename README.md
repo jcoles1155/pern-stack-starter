@@ -21,7 +21,7 @@ This project consists in a *Web Frontend Application* and a *Web Backend Applica
 First, clone the repo:
 
 ```bash
-git clone https://github.com/FaztWeb/pern-stack
+git clone https://github.com/jcoles1155/pern-stack-starter.git
 ```
 
 ### Development
@@ -39,9 +39,15 @@ this command will create the database and the pgadmin client in the following po
 - Database: localhost:5432
 - Pgadmin: localhost:8080
 
-Then to run the frontend:
+Run the frontend:
 
 ```
 cd client
 npm run dev
+```
+
+And start up the Express Server from root
+
+```
+node src/index.js
 ```
