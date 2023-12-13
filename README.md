@@ -106,11 +106,17 @@ Frontend:
 
 1. Basic React Project
 
+2. This will be UI that users interact with to use the app
+
+3. The Frontend interacts with the server to run sql queries defined in the controllers of our server
+
 Database:
 
-1. Initializes the postgres db
+1. Initializes the postgres db, and creates the initial table
 
-src: Server
+2. We will run our migrations that can update the structure of our db tables, and run CRUD operations (Create, Read, Update, Delete)
+
+src: Server (backend)
 
 1. Controllers
     - Houses the functions we run across our db, that we use in Routes
