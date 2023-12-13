@@ -52,4 +52,5 @@ And start up the Express Server from root
 ```
 node src/index.js
 ```
+![Screenshot 2023-12-13 at 12 31 56 AM](https://github.com/jcoles1155/pern-stack-starter/assets/7937257/8bdb55fe-b2a5-4fe6-88cf-104cb8d811b1)
 
