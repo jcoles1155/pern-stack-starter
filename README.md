@@ -2,7 +2,7 @@
 
 The PERN Stack is an acronym for Postgres, Express, React, Node. It's a set of tools to create a complete web application.
 
-Start by downloading this technologies if you haven't already:
+Start by downloading these technologies if you haven't already:
 
 * Node JS
 * Homebrew
