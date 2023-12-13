@@ -13,6 +13,7 @@ Other technologies and libraries that I use in this project:
 
 * Material UI
 * [Postico](https://eggerapps.at/postico2/)
+* Docker
 
 ### Installation
 
@@ -71,4 +72,6 @@ Sweet!  All your services should be running!
 Now go ahead and boot up Postico that you downloaded and open up the settings of the test server created and make them like so:
 
 
-
+```
+node src/index.js
+```
