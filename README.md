@@ -98,7 +98,35 @@ Deleting the task should remove it from the db of course...
 Now you have everything set up!
 
 
-Happy coding!!
+### File Structure
+
+There are a few things to make sure to understand if you are new to the PERN stack... this project is for the absolute beginner, so here's a light breakdown:
+
+Frontend:
+
+1. Basic React Project
+
+Database:
+
+1. Initializes the postgres db
+
+src: Server
+
+1. Controllers
+    - Houses the functions we run across our db, that we use in Routes
+
+2. Routes
+    - Location to house our HTTP calls from the frontend, that calls a designated controller function
+
+3. config.js
+    - db configuration variables
+
+4. db.js
+    - creates a connection pool for the db
+
+5. index.js
+    - express server
+
 
 
 
