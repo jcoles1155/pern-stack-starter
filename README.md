@@ -73,3 +73,9 @@ Now go ahead and boot up Postico that you downloaded and open up the settings of
 
 ![Screenshot 2023-12-13 at 12 31 56 AM](https://github.com/jcoles1155/pern-stack-starter/assets/7937257/8bdb55fe-b2a5-4fe6-88cf-104cb8d811b1)
 
+Alright!  You should be into the db and see a 'tasks' table... click into it!
+
+Go ahead and navigate to http://localhost:5173/
+
+Once there, go ahead and create a test task, and you should see that task created in your db!
+
