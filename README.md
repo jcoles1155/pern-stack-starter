@@ -77,5 +77,20 @@ Alright!  You should be into the db and see a 'tasks' table... click into it!
 
 Go ahead and navigate to http://localhost:5173/
 
-Once there, go ahead and create a test task, and you should see that task created in your db!
+![Screenshot 2023-12-13 at 12 43 47 AM](https://github.com/jcoles1155/pern-stack-starter/assets/7937257/4c3324b2-2dd9-443a-b61a-d75afab33f4f)
+
+
+Once there, go ahead and create a test task, and you should see that task created in your db through Postico!
+
+![Screenshot 2023-12-13 at 12 44 08 AM](https://github.com/jcoles1155/pern-stack-starter/assets/7937257/b3b8355d-ab96-4487-9267-ba3ed79d1cba)
+
+Deleting the task should remove it from the db of course...
+
+Now you have everything set up!
+
+Happy coding!!
+
+
+
+
 
