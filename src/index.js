@@ -4,7 +4,7 @@ import morgan from "morgan";
 import router from "./routes/tasks.routes.js";
 import { port } from "./config.js";
 
-require('dotenv').config();
+// add dotenv here eventually
 
 const app = express();
 
