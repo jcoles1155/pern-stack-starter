@@ -11,29 +11,29 @@ services:
   #   depends_on:
   #     - db
   #   environment:
-  #     - DB_USER=postgres
-  #     - DB_PASSWORD=faztpassword
+  #     - DB_USER=jc
+  #     - DB_PASSWORD=password
   #     - DB_HOST=db
-  #     - DB_PORT=5432
-  #     - DB_DATABASE=tasksdb
+  #     - DB_PORT=5555
+  #     - DB_DATABASE=template
 
   db:
-    container_name: postgresdb
+    container_name: pern-stack-template-db
     image: postgres
     restart: always
     ports:
-      - 5432:5432
+      - 5555:5555
     environment:
-      POSTGRES_PASSWORD: faztpassword
-      POSTGRES_DB: tasksdb
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: template
     volumes: 
       - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
 
   pgadmin:
-    container_name: mypgadmin
+    container_name: pern-stack-tempalte-mypgadmin
     image: dpage/pgadmin4
     ports:
       - 8080:80
     environment:
-      - PGADMIN_DEFAULT_EMAIL=fazt@fazt.com
-      - PGADMIN_DEFAULT_PASSWORD=faztpassword
+      - PGADMIN_DEFAULT_EMAIL=jcoles1155@gmail.com
+      - PGADMIN_DEFAULT_PASSWORD=password

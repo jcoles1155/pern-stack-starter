@@ -1,8 +1,8 @@
 export const db = {
   user: process.env.DB_USER || "postgres",
-  password: process.env.DB_PASSWORD || "faztpassword",
+  password: process.env.DB_PASSWORD || "password",
   host: process.env.DB_HOST || "localhost",
-  port: process.env.DB_PORT || 5432,
+  port: process.env.DB_PORT || 5555,
   database: process.env.DB_DATABASE || "tasksdb",
 };
 
