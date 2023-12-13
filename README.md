@@ -13,6 +13,7 @@ And this other technologies and libraries That I Use in this project:
 
 * Material UI
 * Docker
+* [Postico](https://eggerapps.at/postico2/)
 
 ### Installation
 
@@ -51,3 +52,4 @@ And start up the Express Server from root
 ```
 node src/index.js
 ```
+
